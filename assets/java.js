@@ -9,17 +9,25 @@ var cityDateEl = document.querySelector(".cityDate")
 var thisSucks = function (event) {
     event.preventDefault();
     var cityInput = cityInputEl.value.trim();
-    cityName(cityInput);
+    if(cityInput) {
+        cityInputEl.textContent = cityInput;
+    cityS(cityInput);
+      }
     
 }
 
 
-var cityName = function (cityName) {
-    fetch('https://www.api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=75c3ab4ae18755f10a323f2a0172dbf2')
-    .then(function (response) {
+var cityS = function (cityName) {
+var cityUrl  ='https://api.openweathermap.org/data/2.5/weather?q=' +cityName+'&appid=6051ccf89f20e16cb1ece2484634b69c';
+    fetch(cityUrl)
+    .then(function(response){
         return response.json();
-    }) .then(function(data, cityName) {
+        console.log(response)
+    }) .then(function(data) {
     });
+    then.function(response);{
+        return cityName.appendChild.cityDateEl;
+    }
 };
 
 var citySearch = JSON.parse(localStorage.getItem('searchHistory'))
