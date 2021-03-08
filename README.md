@@ -40,9 +40,9 @@ THEN I am again presented with current and future conditions for that city
 
 No need for any installation for this project.
 
-See deployed site here: https://meniederman.github.io/ProfessionalPortfolio/
+See deployed site here:  https://meniederman.github.io/Weather-API/
 
-See repository here: https://github.com/meniederman/ProfessionalPortfolio
+See repository here: https://github.com/meniederman/Weather-API
 
 
 ## Contributing
